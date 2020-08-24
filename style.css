@@ -1,0 +1,97 @@
+/*for the index page of assignments WEB115-Fall2020 w/Stephy Miehle*/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: FINISH THIS;
+/*PHOTO CREDIT Image by <a href="https://pixabay.com/users/Prawny-162579/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2090126">Prawny</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2090126">Pixabay</a>*/
+background-image: url(ribbonborder.jpg);
+background-color: #8E6BD6;
+background-size: cover;
+background-position: bottom right;
+background-attachment: fixed;
+margin: 0;
+}
+
+/* Global Layout & Style */
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header,
+main,
+footer p {
+    box-shadow: 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+
+/*Header*/
+
+header {
+    text-align: right;
+    padding: 1rem 2rem;
+    background-color: #795BB5;
+    color: #2DFA4F
+}
+
+/*Main*/
+main {
+    background-color: #28A4D1;
+    /* second option background color light blue #7DC7FA*/
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 14rem;
+    margin-bottom: 2rem;
+}
+
+/*Footer*/
+
+footer{
+    padding: 0 2rem 1rem;
+    text-align: center;
+}
+
+footer p{
+    display: inline-block;
+    background-color: transparent;
+    color: #795BB5; 
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+ 
+/*Typography*/
+h1{
+    margin-bottom: 0;
+}
+
+h1,
+h2{
+    margin-top: 0;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+h2:nth-of-type(n + 2) {
+    margin-top: 2rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+
+
+}
