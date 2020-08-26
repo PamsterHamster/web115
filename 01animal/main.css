@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #960000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: goldenrod;
+}
+
+figure img{
+    display: block;
+    width: 375px;
+    height: auto;
+    border-radius: 20px;
+}
+
+figure figcaption{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+figure{
+    margin: 0px auto;
+    display: inline-block;
+    padding: 1.25em;
+}
+
+section{
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25em;
+}
+
+footer{
+    background-color: transparent;
+    text-align: center;
+    color: goldenrod;
+}
