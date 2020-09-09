@@ -10,10 +10,7 @@ body {
 
 section {
   padding: 75px 50px;
-  display: inline-block;
-  border-radius: 15px;
-  background-color: lightpink;
-  overflow: auto;
+  
 }
 
 .container {
@@ -156,7 +153,7 @@ RESIZE
   margin: auto;
   /* TODO: Add a resize property */
   /* Is this correct or did you want a Flex-Box thing?? */
-  height: 100px;
+  resize: both;
 }
 
 /* -----------------------------------------------------------------------------
@@ -165,7 +162,7 @@ SHADOWS
 
 .shadows .panel {
   /* TODO: Add a box-shadow to the white box */
-  box-shadow: 10px 10px darkred;
+  box-shadow: 10px 10px 5px 2px darkred;
 
 }
 
@@ -204,9 +201,10 @@ Z-INDEX
 
 .z-index .card-1 {
   background-color: #3e7ab4;
-  top: 55%;
-  left: 55%;
+  top: 0;
+  left: 0;
   /* TODO: Move this box to the front! */
+  z-index: 10;
 
 }
 
@@ -215,13 +213,15 @@ Z-INDEX
   top: 27.5%;
   left: 27.5%;
   /* TODO: Move this box to the middle! */
+  z-index: 5;
 }
 
 .z-index .card-3 {
   background-color: #ffda79;
-  top: 0;
-  left: 0;
+  top: 55%;
+  left: 55%;
   /* TODO: Move this box to the back! */
+  z-index: 1;
 }
 
 /* -----------------------------------------------------------------------------
@@ -252,14 +252,14 @@ CSS Variables
   margin: 2rem auto;
   display: block;
   /* TODO: Assign variables here! */
-  fill: purple;
-  background-color: salmon;
+  --prism-outline: navy;
+  --prism-accent-1: salmon;
 
 }
 
 .css-variables .prism-1 {
   /* TODO: Color this with a variable */
-  fill: black;
+  --prism-accent-1: black;
 }
 
 .css-variables .prism-2 {
